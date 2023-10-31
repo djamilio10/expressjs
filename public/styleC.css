@@ -1,0 +1,81 @@
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+header{
+   
+    position: fixed;
+    width: 100%;
+}
+nav{
+    position: relative;
+    background-color: whitesmoke;
+    padding: 10px;
+    padding-top: 15px;
+}
+.habi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 20%;
+    padding-top:60px ;
+}
+.modele{
+    width: auto;
+    margin-left:20px ;
+    border-radius: 10px;
+    margin-right: 40px;
+    margin-top: 35px;
+}
+.modele img{
+    border-radius: 10px;
+}
+.descrition{
+    width: auto;
+    background-color: #EEE8DF;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+  height: 300px;
+  margin-top: 150px;
+}
+.spec{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.spec a{
+    background-color: #fff;
+}
+.sec1{
+    background-color: #adadad;
+    padding-bottom: 102px;
+}
+.sec1 h1{
+    text-align:center ;
+    padding-top: 10px;
+}
+.spec div{
+    padding: 15px;
+    margin: 15px;
+    margin-left: 30px;
+    text-align: center;
+}
+.spec a:hover{
+    background-color: black;
+    color: white;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
